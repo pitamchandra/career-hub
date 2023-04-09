@@ -3,7 +3,7 @@ import React from 'react';
 const Footer = () => {
     return (
         <div>
-            this is footer
+            <p className='text-center py-5 divide-y text-gray-600'>&copy; Copyright by Pitam Chandra</p>
         </div>
     );
 };

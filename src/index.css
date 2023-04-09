@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 .btn-primary{
-    @apply bg-gradient-to-r from-sky-600 to-violet-500 py-2 md:py-4 px-3 md:px-5 rounded-md text-white 
+    @apply bg-gradient-to-r from-sky-600 to-violet-500 duration-500 hover:bg-gradient-to-r hover:from-violet-700 hover:to-sky-700 py-2 md:py-4 px-3 md:px-5 rounded-md text-white 
 }
 
 .active{
