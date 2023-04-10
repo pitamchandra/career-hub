@@ -5,6 +5,7 @@ import { useLoaderData } from 'react-router-dom';
 import Jobs from './components/Jobs';
 import Categories from './components/Categories';
 const Home = () => {
+    const jobs = useLoaderData();
     
     return (
         <div className='container mx-auto'>
@@ -23,7 +24,18 @@ const Home = () => {
                 <Categories></Categories>
             </div>
             <SectionHeading title = "Featured Jobs" desc="Explore thousands of job opportunities with all the information you need. Its your future"></SectionHeading>
-            <Jobs></Jobs>
+            <div className="grid md:grid-cols-2 gap-6">
+            {
+                jobs.slice(0,4).map(job => <Jobs
+                    key={job.id}
+                    job = {job}
+                ></Jobs>)
+            }
+            </div>
+            <div className='mt-9 text-center'>
+                <button className='btn-primary'>See More Jobs</button>
+            </div>
+            
         </div>
     );
 };
