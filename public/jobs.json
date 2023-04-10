@@ -1,0 +1,128 @@
+[
+    {
+      "id": 1,
+      "companyName": "ABC Tech",
+      "logo": "abc_logo.png",
+      "title": "Software Engineer",
+      "jobType": "Full-time",
+      "location": "New York",
+      "salary": "$120,000 - $150,000",
+      "description": "We are seeking a talented software engineer to join our team...",
+      "responsibility": [
+        "Develop high-quality software solutions...",
+        "Collaborate with cross-functional teams to define, design, and ship new features..."
+      ],
+      "education": "Bachelor's or Master's degree in Computer Science or related field",
+      "experience": "2+ years of experience in software development",
+      "contactInfo": {
+        "email": "careers@abc.com",
+        "phone": "(123) 456-7890",
+        "address": "123 Main St, Suite 100, New York, NY 10001"
+      }
+    },
+    {
+      "id": 2,
+      "companyName": "XYZ Analytics",
+      "logo": "xyz_logo.png",
+      "title": "Data Scientist",
+      "jobType": "Contract",
+      "location": "San Francisco",
+      "salary": "$130,000 - $160,000",
+      "description": "We are seeking a data scientist with a passion for uncovering insights...",
+      "responsibility": [
+        "Develop and implement statistical models...",
+        "Collaborate with product and engineering teams to design and evaluate experiments..."
+      ],
+      "education": "Master's or PhD in Computer Science, Statistics, or related field",
+      "experience": "3+ years of experience in data science or related field",
+      "contactInfo": {
+        "email": "jobs@xyzanalytics.com",
+        "phone": "(987) 654-3210",
+        "address": "456 Market St, Suite 200, San Francisco, CA 94102"
+      }
+    },
+    {
+      "id": 3,
+      "companyName": "123 Products",
+      "logo": "123_logo.png",
+      "title": "Product Manager",
+      "jobType": "Full-time",
+      "location": "Seattle",
+      "salary": "$110,000 - $140,000",
+      "description": "We are seeking a product manager to join our growing team...",
+      "responsibility": [
+        "Develop and execute product strategies...",
+        "Collaborate with cross-functional teams to define product roadmaps..."
+      ],
+      "education": "Bachelor's or Master's degree in Business, Computer Science, or related field",
+      "experience": "5+ years of product management experience",
+      "contactInfo": {
+        "email": "careers@123products.com",
+        "phone": "(555) 555-5555",
+        "address": "789 Pike St, Suite 300, Seattle, WA 98101"
+      }
+    },
+    {
+      "id": 4,
+      "companyName": "Acme Design",
+      "logo": "acme_logo.png",
+      "title": "UX Designer",
+      "jobType": "Full-time",
+      "location": "Los Angeles",
+      "salary": "$90,000 - $120,000",
+      "description": "We are seeking a talented UX designer to join our team...",
+      "responsibility": [
+        "Collaborate with product managers and engineers to define and implement user experiences...",
+        "Create wireframes, prototypes, and visual designs..."
+      ],
+      "education": "Bachelor's or Master's degree in Design, Human",
+      "experience": "5+ years of product management experience",
+      "contactInfo": {
+        "email": "careers@123products.com",
+        "phone": "(555) 555-5555",
+        "address": "789 Pike St, Suite 300, Seattle, WA 98101"
+      }
+    },
+    {
+        "id": 5,
+        "companyName": "Acme Design",
+        "logo": "acme_logo.png",
+        "title": "UX Designer",
+        "jobType": "Full-time",
+        "location": "Los Angeles",
+        "salary": "$90,000 - $120,000",
+        "description": "We are seeking a talented UX designer to join our team...",
+        "responsibility": [
+          "Collaborate with product managers and engineers to define and implement user experiences...",
+          "Create wireframes, prototypes, and visual designs..."
+        ],
+        "education": "Bachelor's or Master's degree in Design, Human",
+        "experience": "5+ years of product management experience",
+        "contactInfo": {
+          "email": "careers@123products.com",
+          "phone": "(555) 555-5555",
+          "address": "789 Pike St, Suite 300, Seattle, WA 98101"
+        }
+      },
+      {
+        "id": 6,
+        "companyName": "Acme Design",
+        "logo": "acme_logo.png",
+        "title": "UX Designer",
+        "jobType": "Full-time",
+        "location": "Los Angeles",
+        "salary": "$90,000 - $120,000",
+        "description": "We are seeking a talented UX designer to join our team...",
+        "responsibility": [
+          "Collaborate with product managers and engineers to define and implement user experiences...",
+          "Create wireframes, prototypes, and visual designs..."
+        ],
+        "education": "Bachelor's or Master's degree in Design, Human",
+        "experience": "5+ years of product management experience",
+        "contactInfo": {
+          "email": "careers@123products.com",
+          "phone": "(555) 555-5555",
+          "address": "789 Pike St, Suite 300, Seattle, WA 98101"
+        }
+      }
+]
