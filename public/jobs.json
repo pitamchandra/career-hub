@@ -2,7 +2,7 @@
     {
       "id": 1,
       "companyName": "ABC Tech",
-      "logo": "abc_logo.png",
+      "logo": "https://ibb.co/tsZfPCr",
       "title": "Software Engineer",
       "jobType": "Full-time",
       "location": "New York",
@@ -23,7 +23,7 @@
     {
       "id": 2,
       "companyName": "XYZ Analytics",
-      "logo": "xyz_logo.png",
+      "logo": "https://ibb.co/KFMG20q",
       "title": "Data Scientist",
       "jobType": "Contract",
       "location": "San Francisco",
@@ -44,7 +44,7 @@
     {
       "id": 3,
       "companyName": "123 Products",
-      "logo": "123_logo.png",
+      "logo": "https://ibb.co/tsZfPCr",
       "title": "Product Manager",
       "jobType": "Full-time",
       "location": "Seattle",
@@ -65,7 +65,7 @@
     {
       "id": 4,
       "companyName": "Acme Design",
-      "logo": "acme_logo.png",
+      "logo": "https://ibb.co/KFMG20q",
       "title": "UX Designer",
       "jobType": "Full-time",
       "location": "Los Angeles",
@@ -86,7 +86,7 @@
     {
         "id": 5,
         "companyName": "Acme Design",
-        "logo": "acme_logo.png",
+        "logo": "https://ibb.co/VMBn6KP",
         "title": "UX Designer",
         "jobType": "Full-time",
         "location": "Los Angeles",
@@ -107,7 +107,7 @@
       {
         "id": 6,
         "companyName": "Acme Design",
-        "logo": "acme_logo.png",
+        "logo": "https://ibb.co/VMBn6KP",
         "title": "UX Designer",
         "jobType": "Full-time",
         "location": "Los Angeles",
