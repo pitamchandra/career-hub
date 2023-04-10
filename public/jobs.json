@@ -85,7 +85,7 @@
     },
     {
         "id": 5,
-        "companyName": "Acme Design",
+        "companyName": "Ux Design",
         "logo": "https://ibb.co/VMBn6KP",
         "title": "UX Designer",
         "jobType": "Full-time",
@@ -106,7 +106,7 @@
       },
       {
         "id": 6,
-        "companyName": "Acme Design",
+        "companyName": "graphics Design",
         "logo": "https://ibb.co/VMBn6KP",
         "title": "UX Designer",
         "jobType": "Full-time",
@@ -121,7 +121,7 @@
         "experience": "5+ years of product management experience",
         "contactInfo": {
           "email": "careers@123products.com",
-          "phone": "(555) 555-5555",
+          "phone": "(555) 555-5525",
           "address": "789 Pike St, Suite 300, Seattle, WA 98101"
         }
       }
