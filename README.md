@@ -1,16 +1,13 @@
-==== <strong style="font-size: 20px; color: violet;">Smart Jobs Project</strong>
+# Smart Job Project
 
-
-- using react router dom
-<br>
-- using tailwind 
-<br>
-- using local storage
-<br>
-- display dynamic data
-<br>
-- using hero icons
-<br>
-- display local storage data
-
-<h3>LIVE LINK : <a href="https://peaceful-buttercream-def010.netlify.app/" target="_blank">https://peaceful-buttercream-def010.netlify.app/</a></h3>
+## All Features
+---
+* ## Using react router dom
+* ## using tailwind
+- ## using local storage
+- ## using hero icons
+- ## display dynamic job data
+- ## display local storage data
+---
+## _live link here_
+## [https://peaceful-buttercream-def010.netlify.app/](https://peaceful-buttercream-def010.netlify.app/)
