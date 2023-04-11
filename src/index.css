@@ -3,11 +3,17 @@
 @tailwind utilities;
 
 .btn-primary{
-    @apply bg-gradient-to-r from-sky-600 to-violet-500 duration-500 hover:bg-gradient-to-r hover:from-violet-700 hover:to-sky-700 py-2 md:py-4 px-3 md:px-5 rounded-md text-white 
+    @apply bg-gradient-to-r from-sky-600 to-violet-500 duration-500 hover:bg-gradient-to-r hover:from-violet-700 hover:to-sky-700 py-2 md:py-4 px-3 md:px-5 rounded-md text-white capitalize
 }
 .btn-outline{
-    @apply py-1  px-2  rounded-md text-violet-600 border border-violet-700
+    @apply py-1  px-2  rounded-md text-violet-600 border border-violet-700 capitalize
 }
 .active{
     @apply text-violet-600
+}
+.active-bg {
+    @apply bg-violet-600
+}
+.remove-bg{
+    @apply bg-transparent
 }

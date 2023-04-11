@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 import Banner from './assets/banner.png'
 import SectionHeading from './components/SectionHeading';
 import { useLoaderData } from 'react-router-dom';
@@ -6,7 +6,8 @@ import Jobs from './components/Jobs';
 import Categories from './components/Categories';
 const Home = () => {
     const jobs = useLoaderData();
-    
+    const [allJob, setAllJob] = useState(false)
+
     return (
         <div className='container mx-auto'>
             <div className="md:flex justify-between items-center">
@@ -26,14 +27,20 @@ const Home = () => {
             <SectionHeading title = "Featured Jobs" desc="Explore thousands of job opportunities with all the information you need. Its your future"></SectionHeading>
             <div className="grid md:grid-cols-2 gap-6">
             {
-                jobs.slice(0,4).map(job => <Jobs
-                    key={job.id}
-                    job = {job}
-                ></Jobs>)
+               allJob ? jobs.map(job => <Jobs
+                                    key={job.id}
+                                    job = {job}
+                                ></Jobs>) 
+                    : jobs.slice(0,4).map(job => <Jobs
+                        key={job.id}
+                        job = {job}
+                        ></Jobs>)
             }
             </div>
             <div className='mt-9 text-center'>
-                <button className='btn-primary'>See More Jobs</button>
+                {
+                    allJob || <button onClick={() => setAllJob(true)} className='btn-primary'>See More Jobs</button>
+                }
             </div>
             
         </div>
