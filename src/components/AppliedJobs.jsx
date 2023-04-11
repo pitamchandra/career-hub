@@ -1,6 +1,6 @@
 import React from 'react';
 import { getShoppingCart } from '../utilities/fakebd';
-import { useLoaderData } from 'react-router-dom';
+import { Link, useLoaderData } from 'react-router-dom';
 import { MapPinIcon, CurrencyDollarIcon } from '@heroicons/react/24/solid'
 const AppliedJobs = () => {
     const {jobCart, allJobs} = useLoaderData()
@@ -24,7 +24,7 @@ const AppliedJobs = () => {
                                 </div>
                             </div>
                         </div>
-                        <button className='btn-primary'>View Details</button>
+                        <Link to={`/jobDetails/${job.id}`}><button className='btn-primary'>View Details</button></Link>
                     </div>)
                 }
             </div>  
