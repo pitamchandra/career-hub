@@ -9,6 +9,7 @@ import Blog from './components/Blog'
 import Error from './components/Error'
 import AppliedJobs from './components/AppliedJobs'
 import JobDetails from './components/JobDetails'
+import { jobAndCartData } from './components/Loader/Cart&JobData'
 
 const router = createBrowserRouter([
   {
@@ -28,6 +29,7 @@ const router = createBrowserRouter([
       {
         path : 'jobs',
         element : <AppliedJobs></AppliedJobs>,
+        loader : jobAndCartData
       },
       {
         path : 'jobDetails/:id',
