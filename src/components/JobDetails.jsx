@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import { useLoaderData, useParams } from 'react-router-dom';
 import { MapPinIcon, CalendarIcon,PhoneIcon, EnvelopeIcon } from '@heroicons/react/24/solid'
+import { addToDb } from '../utilities/fakebd';
 
 const JobDetails = () => {
     const jobsDetails = useLoaderData();
@@ -22,7 +23,7 @@ const JobDetails = () => {
                 <h2 className='text-xl font-semibold'>Experience: </h2>
                 <p className='text-gray-500'>{singleJob.experience}</p>
             </div>
-            <div className="w-1/3">
+            <div className="md:w-1/3">
                 { singleJob.contactInfo &&
                     <div className="rounded bg-slate-300 p-7 ">
                     <h2 className='text-2xl capitalize font-semibold'>job details</h2>
@@ -36,7 +37,7 @@ const JobDetails = () => {
                     <p className='text-gray-800 mb-2'><MapPinIcon className="h-6 w-6 inline-flex text-violet-600" /> <strong>Job Title:</strong>  {singleJob.contactInfo.address}</p>
                 </div>
                 }
-                <button className='btn-primary mt-4 w-full'>Apply Now</button>
+                <button onClick={() => addToDb(singleJob.id)} className='btn-primary mt-4 w-full'>Apply Now</button>
             </div>
         </div>
     );
